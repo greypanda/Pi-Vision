@@ -17,6 +17,32 @@ What is Pi Vision?
 	Debian Linux. These are, however, only intended to review the 
 	application.
 
+It Still Runs!
+
+	Here it is, 2018. I compiled this on the rpi3 and it works! 
+	
+	Why are we changing it?
+	
+	The current application is defined as a camera for a microscope. In this case, an Olympus CKX53.
+	The basic microscope is not cheap, but not extravagant. The problem is that a supported camera
+	will set you back several hundred ( or thousand ) bucks. So with a Raspberry Pi 3, a seven inch
+	touchscreen, and a camera fitted with a CS mount, we can have a working system for a little over 
+	a hundred bucks.
+	
+	Now for the software. Although Raspbian comes fitted with several camera utilities, they are
+	command line only and don't really suit the needs of the microscope users. They only need a couple
+	of things to get the job done:
+	
+		* The ability to preview the picture through the microscope lens for focusing and positioning.
+		* A simple GUI that controls the camera in a non-intrusive way.
+		* The ability to take a picture and save it on a USB flash drive.
+		* Once defined, the destination drive should be remembered and pictures should be timestamped.
+		
+	So we can remove ( or at least hide ) most of the controls and just concentrate on taking pictures.
+	
+		
+	
+	
 Where is the Install document?
 
 	See the directory named "source" for the install.
